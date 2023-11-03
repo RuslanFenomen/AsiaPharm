@@ -379,7 +379,7 @@ a {
   flex-direction: column;
   justify-content: flex-end;
   align-items: start;
-  height: 100vh;
+  height: calc(100vh - 100px);
   position: relative;
   z-index: 1;
   color: #fff;
@@ -404,6 +404,10 @@ a {
   color: var(--white);
   background: var(--default);
   border: 2px solid var(--default);
+}
+
+.main {
+  margin-top: 100px;
 }
 
 /* about */
@@ -448,7 +452,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: calc(100vh - 100px);
   position: relative;
 }
 
@@ -892,7 +896,7 @@ a {
 /* error404 */
 .error404__inner {
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 100px);
   justify-content: center;
   align-items: center;
   flex-direction: column;
